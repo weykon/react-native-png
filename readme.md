@@ -1,5 +1,7 @@
 # Introduce
 
+THIS PACKAGE IS IN THE `EXPERIMENTAL STAGE` ,  any question you can put forwards to a [issue](https://github.com/weykon/react-native-png/issues)!
+
 this package is simply a integration for react native of web browser code using. not more creation promgram.
 
 thanks all contributor from `pngjs` and `zlib` !
@@ -12,12 +14,13 @@ For my stuff, as start as png, creating new image data convert using printing im
 
 # Usage
 
-on github repository has a example in [test](https://github.com/weykon/react-native-png) folder. 
+more information to [read](https://github.com/weykon/react-native-png/blob/main/test/Usage.md). 
 
 ```ts
 import { PNG } from 'react-native-png';
-const png0 = PNG.sync.read(buffer_from_other,);
+const png = PNG.sync.read(buffer_from_other);
 ```
+
 
 # TODO 
 * [ ] for all API to contact PNG class and write function.
@@ -26,7 +29,8 @@ const png0 = PNG.sync.read(buffer_from_other,);
 if you crash at buffer issue, suggest to use this package in react native.
 
 ```
-add @craftzdog/react-native-buffer
+yarn add @craftzdog/react-native-buffer
+yarn add stream
 import { Buffer } from "@craftzdog/react-native-buffer"
 ```
 
@@ -45,6 +49,7 @@ import { Buffer } from "@craftzdog/react-native-buffer"
    base code
 
 > @author `Feross Aboukhadijeh` <feross@feross.org> <http://feross.org>  
+
 @license  MIT
 
 ### react-zlib-js
