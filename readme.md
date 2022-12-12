@@ -14,7 +14,7 @@ For my stuff, as start as png, creating new image data convert using printing im
 
 # Usage
 
-more information to [read](https://github.com/weykon/react-native-png/blob/main/test/Usage.md). 
+more information need to [READ](https://github.com/weykon/react-native-png/blob/main/test/Usage.md). 
 
 ```ts
 import { PNG } from 'react-native-png';
