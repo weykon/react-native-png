@@ -6,12 +6,20 @@
   "types": "./src/png.d.ts",
   "keywords": [
     "png",
-    "react native png"
+    "react native png",
+    "react native"
   ],
   "author": "weykon <635883092@qq.com>",
   "license": "ISC",
   "homepage": "https://github.com/weykon/react-native-png.git",
   "bugs": {
     "url": "https://github.com/weykon/react-native-png/issues"
+  },
+  "repository": {
+    "type": "npm",
+    "url": "https://www.npmjs.com/package/react-native-png"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0"
   }
 }

@@ -1,4 +1,4 @@
-import { Stream } from "./zlib"
+import { Stream } from "zlib"
 
 export declare class PNG extends Stream {
     static sync: {
