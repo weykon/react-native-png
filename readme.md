@@ -26,13 +26,7 @@ const png = PNG.sync.read(buffer_from_other);
 * [ ] for all API to contact PNG class and write function.
 # Problem
 
-if you crash at buffer issue, suggest to use this package in react native.
-
-```
-yarn add @craftzdog/react-native-buffer
-yarn add stream
-import { Buffer } from "@craftzdog/react-native-buffer"
-```
+already add "browserify" npm package, seem solve lots of problem about no-nodejs.
 
 ### welcome to create issue for any problem! [create issue](https://github.com/weykon/react-native-png/issues)
 
