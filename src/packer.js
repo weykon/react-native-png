@@ -4,7 +4,7 @@ let constants = require("./constants");
 let CrcStream = require("./crc");
 let bitPacker = require("./bitpacker");
 let filter = require("./filter-pack");
-let zlib = require("zlib");
+let zlib = require("./zlib");
 
 let Packer = (module.exports = function (options) {
   this._options = options;

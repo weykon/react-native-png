@@ -1,7 +1,7 @@
 "use strict";
 
 let assert = require("assert").ok;
-let zlib = require("zlib");
+let zlib = require("./zlib");
 let util = require("util");
 
 let kMaxLength = require("buffer").kMaxLength;

@@ -1,7 +1,7 @@
 "use strict";
 
 let hasSyncZlib = true;
-let zlib = require("zlib");
+let zlib = require("./zlib");
 if (!zlib.deflateSync) {
   hasSyncZlib = false;
 }

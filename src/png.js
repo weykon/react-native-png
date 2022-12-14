@@ -6,6 +6,8 @@ let Parser = require("./parser-async");
 let Packer = require("./packer-async");
 let PNGSync = require("./png-sync");
 
+global.Buffer = global.Buffer || require('buffer').Buffer
+
 let PNG = (exports.PNG = function (options) {
   Stream.call(this);
 

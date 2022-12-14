@@ -1,7 +1,7 @@
 "use strict";
 
 let util = require("util");
-let zlib = require("zlib");
+let zlib = require("./zlib");
 let ChunkStream = require("./chunkstream");
 let FilterAsync = require("./filter-parse-async");
 let Parser = require("./parser");

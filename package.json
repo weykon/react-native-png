@@ -20,6 +20,7 @@
     "url": "https://www.npmjs.com/package/react-native-png"
   },
   "dependencies": {
-    "browserify": "^17.0.0"
+    "buffer": "^6.0.3",
+    "stream": "^0.0.2"
   }
 }

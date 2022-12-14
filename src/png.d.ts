@@ -2,7 +2,7 @@ import { Stream } from "zlib"
 
 export declare class PNG extends Stream {
     static sync: {
-        read: (buffer, options?: Options) => PNG
+        read: (buffer: Buffer, options?: Options) => PNG
         write: (png, options) => Buffer
     }
     width: number;
