@@ -16,6 +16,11 @@ For my stuff, as start as png, creating new image data convert using printing im
 
 more information need to [READ](https://github.com/weykon/react-native-png/blob/main/test/Usage.md). 
 
+```sh
+yarn add --dev browserify
+npx pod-install
+```
+
 ```ts
 import { PNG } from 'react-native-png';
 const png = PNG.sync.read(buffer_from_other);
