@@ -1,7 +1,7 @@
 "use strict";
 
 let util = require("util");
-let Stream = require("stream");
+let Stream = require("stream-browserify");
 
 let ChunkStream = (module.exports = function () {
   Stream.call(this);

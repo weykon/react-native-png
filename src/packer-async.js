@@ -1,7 +1,7 @@
 "use strict";
 
 let util = require("util");
-let Stream = require("stream");
+let Stream = require("stream-browserify");
 let constants = require("./constants");
 let Packer = require("./packer");
 
