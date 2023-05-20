@@ -8,8 +8,8 @@ thanks all contributor from `pngjs` and `zlib` !
 
 # Background
 
-I past a lots time on looking some calculate process parsing png file.  
-As lower level control png data, to output the IDAT from png chunk data.  
+I past a lots time on looking some calculate process parsing png file.
+As lower level control png data, to output the IDAT from png chunk data.
 For my stuff, as start as png, creating new image data convert using printing image at termal printer.
 
 # Usage
@@ -17,8 +17,7 @@ For my stuff, as start as png, creating new image data convert using printing im
 more information need to [READ](https://github.com/weykon/react-native-png/blob/main/test/Usage.md). 
 
 ```sh
-yarn add --dev browserify
-npx pod-install
+npm install react-native-png
 ```
 
 ```ts
@@ -27,7 +26,7 @@ const png = PNG.sync.read(buffer_from_other);
 ```
 
 
-# TODO 
+# TODO
 * [ ] for all API to contact PNG class and write function.
 # Problem
 
@@ -47,7 +46,7 @@ already add "browserify" npm package, seem solve lots of problem about no-nodejs
 
    base code
 
-> @author `Feross Aboukhadijeh` <feross@feross.org> <http://feross.org>  
+> @author `Feross Aboukhadijeh` <feross@feross.org> <http://feross.org>
 
 @license  MIT
 
